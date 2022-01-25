@@ -23,9 +23,10 @@ function search() {
       ];
       display.innerHTML = '';
     
-      for (let i = 0; i < people.length; i++) {
-        if (people[i].name == name) {
-          display.innerHTML += '<li>' + people[i].name + '</li>';
+    
+      for (let i = 0; i < user.length; i++) {
+        if (user[i].email == email) {
+          display.innerHTML += '<li>' + user[i].email + ", " + password +  '</li>';
         }
       }
     }
