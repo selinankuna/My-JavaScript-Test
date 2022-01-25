@@ -4,22 +4,22 @@ function search() {
     var password = document.getElementById('password').Value;
 
     let user = [
-        { name: 'hardy', age: 10, color:  },
-        { name: 'vusumuzi', age: 21, color:  },
-        { name: 'wandile', age: 65, color:  },
-        { name: 'charity', age: 28, color:  },
-        { name: 'precious', age: 17, color:  },
-        { name: 'andisiwe', age: 90, color: },
-        { name: 'mmapaseka', age: 30, color:  },
-        { name: 'mhlonipheni', age: 20, color:  },
-        { name: 'khumbulani', age: 30, color:  },
-        { name: 'sophie', age: 18, color:  },
-        { name: 'lucky', age: 32, color:  },
-        { name: 'sithembiso', age: 32, color:  },
-        { name: 'happy', age: 18, color:  },
-        { name: 'selina', age: 26, color: ' },
-        { name: 'nkosiphendule', age: 30, color: 'white', hairStyle: 'chiskop' },
-        { name: 'thato', age: 30, color: 'green', hairStyle: 'chiskop' },
+        { name: 'thembi', age: 30, },
+        { name: 'vusumuzi', age: 21, },
+        { name: 'wandile', age: 65,},
+        { name: 'charity', age: 28, },
+        { name: 'precious', age: 17,},
+        { name: 'andisiwe', age: 90,},
+        { name: 'mmapaseka', age: 30, },
+        { name: 'mhlonipheni', age: 20, },
+        { name: 'khumbulani', age: 30,},
+        { name: 'sophie', age: 18,},
+        { name: 'lucky', age: 32, },
+        { name: 'sithembiso', age: 32,},
+        { name: 'happy', age: 18,},
+        { name: 'selina', age: 26,},
+        { name: 'nkosiphendule', age: 30,},
+        { name: 'hardy', age: 30,},
       ];
       display.innerHTML = '';
     
