@@ -2,10 +2,10 @@ let Password = [];
 let Email = [];
 
 function SUBMIT () {
-    // alert("Email or Password is empty");
+    alert("Email or Password is empty");
 
-var password = document.getElementById("password");
-var email = document.getElementById("email");
+var password = document.getElementById("password").value;
+var email = document.getElementById("email").value;
 
 if (email == "user@gmail.com" && password == "mypassword") {
     Window.location.href = "./home.html";
@@ -22,8 +22,10 @@ if (email == 0) {
     return;
 }
 
-// names.push({Email: Email, password: password});
+names.push({Email: Email, password: password});
 
-// varname.innerHTML ="";
+varname.innerHTML ="";
 
 }
+
+console.log("test...")
