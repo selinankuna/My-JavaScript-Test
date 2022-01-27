@@ -12,6 +12,8 @@ let user = [
    "pericous 35",
    "sithe 33",
    "mdudzi 55",
+   "Sipho 34",
+   "Andisiwe 29",
 ];
 
 let display = document.getElementById("display");
