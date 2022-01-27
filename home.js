@@ -10,7 +10,7 @@ let user = [
    "khumbulani 22",
    "charity 44",
    "pericous 35",
-   "sithe 33",
+   "sithembiso 33",
    "mdudzi 55",
    "Sipho 34",
    "Andisiwe 29",
