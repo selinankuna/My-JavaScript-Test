@@ -1,8 +1,4 @@
-let Password = [];
-let Email = [];
-
 function SUBMIT () {
- alert("Email or Password is empty");
 
 var password = document.getElementById("password").value;
 var email = document.getElementById("email").value;
@@ -22,10 +18,6 @@ if (email == 0) {
     return;
 }
 
-names.push({Email: Email, password: password});
-
-varname.innerHTML ="";
+display.innerHTML ="";
 
 }
-
-console.log("test...")
