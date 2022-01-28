@@ -1,4 +1,4 @@
-let user = [
+let submit = [
   "thembi","30",
    "selina", "28",
    "wandile","40",
@@ -16,9 +16,9 @@ let user = [
    "Andisiwe",  "29",
 ];
 
-let display = document.getElementById("display");
 
-for (let i = 0; i < user.length; i++) {
-  display.innerHTML += "<p>" + user[i] + "</p>";
+
+for (let i = 0; i < submit.length; i++) {
+  document.getElementById("display").innerHTML += "<li>" + submit[i] + "</li>"
 }
 
