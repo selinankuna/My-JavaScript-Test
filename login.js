@@ -2,7 +2,7 @@ let Password = [];
 let Email = [];
 
 function SUBMIT () {
-    alert("Email or Password is empty");
+ alert("Email or Password is empty");
 
 var password = document.getElementById("password").value;
 var email = document.getElementById("email").value;
