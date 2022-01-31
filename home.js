@@ -1,5 +1,5 @@
 let submit = [
-  "thembi","30",
+ "thembi","30",
    "selina", "28",
    "wandile","40",
    "happy","20",
@@ -19,6 +19,6 @@ let submit = [
 
 
 for (let i = 0; i < submit.length; i++) {
-  document.getElementById("display").innerHTML += "<li>" + submit[i] + "</li>"
+  document.getElementById("display").innerHTML += "<li>" + submit[i] + "</li>";
 }
 
